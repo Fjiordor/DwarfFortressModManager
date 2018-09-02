@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.dFMMUIController">
+   <children>
+      <Button fx:id="buttonChooseDirectory" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#startFolderDialogue" text="Choose Raw Folder" />
+      <Label fx:id="pathLabel" layoutX="157.0" layoutY="19.0" prefHeight="16.0" prefWidth="425.0" />
+   </children>
+</AnchorPane>
